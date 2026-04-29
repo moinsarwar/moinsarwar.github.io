@@ -1,269 +1,103 @@
 <div align="center">
-  <h3>&lt; Moin /&gt;</h3>
-  <h1>Hi, I'm Moin Sarwar</h1>
-  <p><b>Senior Software Developer</b></p>
-  <p>Building scalable software systems, integrations, and automation.</p>
-  <p>
-    <a href="mailto:moinsarwar19@gmail.com">Get in Touch</a> •
-    <a href="https://github.com/moinsarwar">GitHub</a> •
-    <a href="https://www.linkedin.com/in/moin-sarwar/">LinkedIn</a>
+  <img src="./banner.png" alt="Portfolio Banner" width="100%">
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=moinsarwar&color=0078D4&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  <br><br>
+  <h1>Hi there, I'm Moin Sarwar! 👋</h1>
+  <a href="https://github.com/moinsarwar">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=0078D4&center=true&vCenter=true&width=600&lines=Senior+Software+Developer;Product+Manager;Systems+Architect;AI+%26+Automation+Expert" alt="Typing SVG" />
+  </a>
+  <br>
+  <p><b>Bridging the gap between technical complexity and real business value through high-performance solutions.</b></p>
+  <p align="center">
+    <a href="mailto:moinsarwar19@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://github.com/moinsarwar"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://www.linkedin.com/in/moin-sarwar/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 </div>
 
+---
+
+### 👨‍💻 About My Expertise
+I am a seasoned software professional specializing in building and scaling complex enterprise systems. My focus lies at the intersection of **Full-Stack Development**, **Systems Architecture**, and **Product Strategy**.
+* 🏢 **Enterprise Systems:** Extensive experience in hardware/API integrations for airport security gates (Gunnebo) and specialized Point of Sale (POS) systems.
+* 🤖 **AI & Automation:** Proficient in leveraging local LLMs (Gemma, DeepSeek) and developing robust Python-based multi-channel workflows.
+* 💡 **Philosophy:** *The best way to predict the future is to automate it.*
+
+---
+
+### 🧱 Tech Stack & Arsenal
+
 <p align="center">
-  <a href="#about">About</a> •
-  <a href="#skills">Skills</a> •
-  <a href="#experience">Experience</a> •
-  <a href="#work">Work</a> •
-  <a href="#contact">Contact</a>
+  <img src="https://img.shields.io/badge/.NET_C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Blade-F05340?style=for-the-badge&logo=laravel&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux_WSL-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor_IDE-000000?style=for-the-badge&logo=openai&logoColor=white" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Stripe-2496ED?style=for-the-badge&logo=stripe&logoColor=white" />
+  <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
+  <img src="https://img.shields.io/badge/SOAP/REST_APIs-FCC624?style=for-the-badge&logo=json&logoColor=black" />
+  <img src="https://img.shields.io/badge/Hardware_Integrations-61DAFB?style=for-the-badge&logo=cplusplus&logoColor=black" />  
 </p>
 
 ---
 
-<a id="about"></a>
-## About Me
+### 🤖 AI, Automation & Enterprise Focus
 
-### Who I Am
-Software engineer focused on backend-heavy applications, enterprise integrations, and product-oriented development.
-
-### Current Role
-Senior Software Developer working on business-critical systems and automation workflows.
-
-### Specialization
-Full-Stack Development, System Design, Integrations, and AI-assisted automation.
-
-### Tech Focus
-`.NET / C#` `Laravel / PHP` `Python` `JavaScript` `React` `Vue` `MySQL` `SQL Server`
+* 🤖 **AI Integration**: Architecting smart applications utilizing **DeepSeek**, **Gemini**, and **OpenAI**.
+* ⚡ **Workflow Automation**: Engineering Python-driven orchestration for multi-channel API integrations (WhatsApp, Gmail).
+* 🛡️ **Robust Architecture**: Developing resilient backend services, including standalone watchdog processes ensuring maximum uptime.
 
 ---
 
-<a id="skills"></a>
-## Skills and Technologies
+### 🌟 Featured Highlights
 
-### Languages
-`.NET / C#` `PHP` `Python` `JavaScript`
-
-### Backend and Cloud
-`Laravel` `Node.js` `REST APIs` `SOAP APIs` `Docker` `Linux / WSL`
-
-### Databases
-`MySQL` `SQL Server`
-
-### AI and Tools
-`DeepSeek` `Gemini` `OpenAI` `Git` `Cursor`
-
----
-
-<a id="experience"></a>
-## Professional Experience
-
-### Senior Software Developer
-- Delivered enterprise integrations with external APIs and specialized hardware systems.
-- Built and maintained robust backend services with reliability-first architecture.
-- Collaborated on product and technical planning to convert business needs into scalable software.
-
-### Enterprise and Product Projects
-- Designed secure validation and integration flows for operational systems.
-- Built custom POS and business automation workflows for real-world deployment.
-- Improved process efficiency through AI-assisted tools and automation pipelines.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🚀 <a href="https://github.com/moinsarwar/mail-to-whatsapp-sender">Mail-to-WhatsApp Sender</a></h3>
+      <p>A DeepSeek AI-powered automation tool that summarizes incoming emails and securely forwards them to WhatsApp with high-fidelity PDF rendering capabilities.</p>
+    </td>
+    <td width="50%">
+      <h3>🏢 Enterprise Architecture</h3>
+      <p>Engineered complex validation APIs for Gunnebo airport security gates and developed high-performance, specialized Point of Sale (POS) ecosystems from the ground up.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-<a id="work"></a>
-## Featured Work
-
-### [Mail-to-WhatsApp Sender](https://github.com/moinsarwar/mail-to-whatsapp-sender)
-AI-powered workflow that summarizes incoming emails and forwards useful output to WhatsApp.
-
-### Enterprise Integrations
-Delivered production-grade API and hardware integrations where stability and performance are critical.
-
----
-
-<a id="contact"></a>
-## Contact
-
-- Email: [moinsarwar19@gmail.com](mailto:moinsarwar19@gmail.com)
-- GitHub: [github.com/moinsarwar](https://github.com/moinsarwar)
-- LinkedIn: [linkedin.com/in/moin-sarwar](https://www.linkedin.com/in/moin-sarwar/)
-
----
-
-<div align="center">
-  <sub>Built by Moin Sarwar</sub>
-</div>
-<div align="center">
-  <h3>&lt; Moin /&gt;</h3>
-  <h1>Hi, I'm Moin Sarwar</h1>
-  <p><b>Senior Software Developer</b></p>
-  <p>Building scalable software systems, integrations, and automation.</p>
-  <p>
-    <a href="mailto:moinsarwar19@gmail.com">Get in Touch</a> •
-    <a href="https://github.com/moinsarwar">GitHub</a> •
-    <a href="https://www.linkedin.com/in/moin-sarwar/">LinkedIn</a>
-  </p>
-</div>
-
+### 📈 GitHub Contribution Activity
 <p align="center">
-  <a href="#about">About</a> •
-  <a href="#skills">Skills</a> •
-  <a href="#experience">Experience</a> •
-  <a href="#work">Work</a> •
-  <a href="#contact">Contact</a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=moinsarwar&theme=radical&hide_border=true" alt="Activity Graph" width="100%" />
 </p>
 
 ---
 
-<a id="about"></a>
-## About Me
-
-### Who I Am
-Software engineer focused on backend-heavy applications, enterprise integrations, and product-oriented development.
-
-### Current Role
-Senior Software Developer working on business-critical systems and automation workflows.
-
-### Specialization
-Full-Stack Development, System Design, Integrations, and AI-assisted automation.
-
-### Tech Focus
-`.NET / C#` `Laravel / PHP` `Python` `JavaScript` `React` `Vue` `MySQL` `SQL Server`
-
----
-
-<a id="skills"></a>
-## Skills and Technologies
-
-### Languages
-`.NET / C#` `PHP` `Python` `JavaScript`
-
-### Backend and Cloud
-`Laravel` `Node.js` `REST APIs` `SOAP APIs` `Docker` `Linux / WSL`
-
-### Databases
-`MySQL` `SQL Server`
-
-### AI and Tools
-`DeepSeek` `Gemini` `OpenAI` `Git` `Cursor`
-
----
-
-<a id="experience"></a>
-## Professional Experience
-
-### Senior Software Developer
-- Delivered enterprise integrations with external APIs and specialized hardware systems.
-- Built and maintained robust backend services with reliability-first architecture.
-- Collaborated on product and technical planning to convert business needs into scalable software.
-
-### Enterprise and Product Projects
-- Designed secure validation and integration flows for operational systems.
-- Built custom POS and business automation workflows for real-world deployment.
-- Improved process efficiency through AI-assisted tools and automation pipelines.
-
----
-
-<a id="work"></a>
-## Featured Work
-
-### [Mail-to-WhatsApp Sender](https://github.com/moinsarwar/mail-to-whatsapp-sender)
-AI-powered workflow that summarizes incoming emails and forwards useful output to WhatsApp.
-
-### Enterprise Integrations
-Delivered production-grade API and hardware integrations where stability and performance are critical.
-
----
-
-<a id="contact"></a>
-## Contact
-
-- Email: [moinsarwar19@gmail.com](mailto:moinsarwar19@gmail.com)
-- GitHub: [github.com/moinsarwar](https://github.com/moinsarwar)
-- LinkedIn: [linkedin.com/in/moin-sarwar](https://www.linkedin.com/in/moin-sarwar/)
-
----
-
+### 📊 GitHub Statistics
 <div align="center">
-  <sub>Built by Moin Sarwar</sub>
-</div>
-<div align="center">
-  <h3>&lt; Moin /&gt;</h3>
-  <h1>Hi, I'm Moin Sarwar</h1>
-  <p><b>Senior Software Developer</b></p>
-  <p>Building scalable software systems, integrations, and automation.</p>
-  <p>
-    <a href="mailto:moinsarwar19@gmail.com">Get in Touch</a> •
-    <a href="https://github.com/moinsarwar">GitHub</a> •
-    <a href="https://www.linkedin.com/in/moin-sarwar/">LinkedIn</a>
-  </p>
+  <img src="https://github-readme-stats.vercel.app/api?username=moinsarwar&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Moin's Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moinsarwar&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="48%" />
 </div>
 
 ---
 
-## About Me
-
-### Who I Am
-Software engineer focused on backend-heavy applications, enterprise integrations, and product-oriented development.
-
-### Current Role
-Senior Software Developer working on business-critical systems and automation workflows.
-
-### Specialization
-Full-Stack Development, System Design, Integrations, and AI-assisted automation.
-
-### Tech Focus
-`.NET / C#` `Laravel / PHP` `Python` `JavaScript` `React` `Vue` `MySQL` `SQL Server`
-
----
-
-## Skills and Technologies
-
-### Languages
-`.NET / C#` `PHP` `Python` `JavaScript`
-
-### Backend and Cloud
-`Laravel` `Node.js` `REST APIs` `SOAP APIs` `Docker` `Linux / WSL`
-
-### Databases
-`MySQL` `SQL Server`
-
-### AI and Tools
-`DeepSeek` `Gemini` `OpenAI` `Git` `Cursor`
-
----
-
-## Professional Experience
-
-### Senior Software Developer
-- Delivered enterprise integrations with external APIs and specialized hardware systems.
-- Built and maintained robust backend services with reliability-first architecture.
-- Collaborated on product and technical planning to convert business needs into scalable software.
-
-### Enterprise and Product Projects
-- Designed secure validation and integration flows for operational systems.
-- Built custom POS and business automation workflows for real-world deployment.
-- Improved process efficiency through AI-assisted tools and automation pipelines.
-
----
-
-## Featured Work
-
-### [Mail-to-WhatsApp Sender](https://github.com/moinsarwar/mail-to-whatsapp-sender)
-AI-powered workflow that summarizes incoming emails and forwards useful output to WhatsApp.
-
-### Enterprise Integrations
-Delivered production-grade API and hardware integrations where stability and performance are critical.
-
----
-
-## Contact
-
-- Email: [moinsarwar19@gmail.com](mailto:moinsarwar19@gmail.com)
-- GitHub: [github.com/moinsarwar](https://github.com/moinsarwar)
-- LinkedIn: [linkedin.com/in/moin-sarwar](https://www.linkedin.com/in/moin-sarwar/)
-
----
-
 <div align="center">
-  <sub>Built by Moin Sarwar</sub>
+  <sub>Built with ❤️ by Moin Sarwar</sub>
 </div>
