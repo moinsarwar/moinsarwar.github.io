@@ -1,306 +1,353 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Moin Sarwar | Senior Software Developer</title>
-    <meta name="description" content="Senior Software Developer specializing in Full-Stack, Enterprise Integrations, and AI Automation." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moin Sarwar | Junior Software Developer</title>
+  <meta name="description"
+    content="Senior Software Developer specializing in Full-Stack, Enterprise Integrations, and AI Automation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <!-- Animated Background -->
-    <div class="bg-animation">
-        <div class="gradient-bg"></div>
-        <canvas id="particles"></canvas>
+  <!-- Animated Background -->
+  <div class="bg-animation">
+    <div class="gradient-bg"></div>
+    <canvas id="particles"></canvas>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-content">
+      <div class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Moin</span>
+        <span class="logo-bracket"> /&gt;</span>
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-sun"></i>
+      </button>
     </div>
+  </nav>
 
-    <!-- Navigation -->
-    <nav class="nav" id="navbar">
-        <div class="nav-content">
-            <div class="nav-logo">
-                <span class="logo-bracket">&lt;</span>
-                <span class="logo-text">Moin</span>
-                <span class="logo-bracket"> /&gt;</span>
-            </div>
-            <div class="nav-links">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                <i class="fas fa-sun"></i>
-            </button>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-circle" style="color:#22c55e;font-size:0.6rem;"></i>
+        Available for opportunities
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Moin Sarwar</span>
+      </h1>
+      <p class="hero-subtitle">
+        JuniorSoftware Developer &bull;
+        <span class="typed-text"></span><span class="cursor">|</span>
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number" data-target="8">2+</div>
+          <div class="stat-label">Years Experience</div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <div class="hero-badge">
-                <i class="fas fa-circle" style="color:#22c55e;font-size:0.6rem;"></i>
-                Available for opportunities
-            </div>
-            <h1 class="hero-title">
-                Hi, I'm <span class="gradient-text">Moin Sarwar</span>
-            </h1>
-            <p class="hero-subtitle">
-                Senior Software Developer &bull;
-                <span class="typed-text"></span><span class="cursor">|</span>
-            </p>
-            <div class="hero-stats">
-                <div class="stat">
-                    <div class="stat-number" data-target="8">0+</div>
-                    <div class="stat-label">Years Experience</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number" data-target="50">0+</div>
-                    <div class="stat-label">Integrations Built</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number" data-target="6">0+</div>
-                    <div class="stat-label">Companies Served</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number" data-target="20">0+</div>
-                    <div class="stat-label">Projects Delivered</div>
-                </div>
-            </div>
-            <div class="hero-cta">
-                <a href="#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Get in Touch</a>
-                <a href="#projects" class="btn btn-secondary"><i class="fas fa-code"></i> View Projects</a>
-            </div>
-            <div class="social-links">
-                <a href="mailto:moinsarwar19@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/moinsarwar" class="social-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/moin-sarwar/" class="social-link" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            </div>
+        <div class="stat">
+          <div class="stat-number" data-target="50">10+</div>
+          <div class="stat-label">Integrations Built</div>
         </div>
-        <div class="scroll-indicator">
-            <div class="mouse"><div class="wheel"></div></div>
+        <div class="stat">
+          <div class="stat-number" data-target="6">1+</div>
+          <div class="stat-label">Companies Served</div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">// about_me</span>
-                <h2 class="section-title">Who I Am</h2>
-            </div>
-            <div class="about-grid">
-                <div class="about-card" data-aos="fade-up">
-                    <div class="card-icon"><i class="fas fa-briefcase"></i></div>
-                    <h3>Current Role</h3>
-                    <p>Senior Software Developer</p>
-                    <p class="text-muted">Enterprise Systems &amp; AI Automation</p>
-                </div>
-                <div class="about-card" data-aos="fade-up">
-                    <div class="card-icon"><i class="fas fa-bullseye"></i></div>
-                    <h3>Specialization</h3>
-                    <p>Full-Stack Development</p>
-                    <p class="text-muted">Systems Architecture &bull; Enterprise Integrations</p>
-                </div>
-                <div class="about-card" data-aos="fade-up">
-                    <div class="card-icon"><i class="fas fa-robot"></i></div>
-                    <h3>AI &amp; Automation</h3>
-                    <p>DeepSeek &bull; Gemini &bull; OpenAI</p>
-                    <p class="text-muted">Python-driven multi-channel workflows</p>
-                </div>
-            </div>
-            <div class="about-description" data-aos="fade-up">
-                <p>I am a seasoned software professional specializing in building and scaling complex enterprise systems. My focus lies at the intersection of <strong>Full-Stack Development</strong>, <strong>Systems Architecture</strong>, and <strong>AI-driven automation</strong>.</p>
-                <p>I have extensive hands-on experience delivering hardware &amp; API integrations for <strong>airport security gate systems (Gunnebo)</strong> and high-performance <strong>POS ecosystems</strong>. I believe the best way to predict the future is to automate it.</p>
-            </div>
+        <div class="stat">
+          <div class="stat-number" data-target="20">9+</div>
+          <div class="stat-label">Projects Delivered</div>
         </div>
-    </section>
+      </div>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Get in Touch</a>
+        <a href="#projects" class="btn btn-secondary"><i class="fas fa-code"></i> View Projects</a>
+      </div>
+      <div class="social-links">
+        <a href="mailto:moinsarwar19@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/moinsarwar" class="social-link" target="_blank" title="GitHub"><i
+            class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/moin-sarwar/" class="social-link" target="_blank" title="LinkedIn"><i
+            class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">// tech_stack</span>
-                <h2 class="section-title">Skills &amp; Technologies</h2>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category" data-aos="fade-up">
-                    <h3><i class="fas fa-code"></i> Languages</h3>
-                    <div class="skill-items">
-                        <div class="skill-item"><span class="skill-name">.NET / C#</span><div class="skill-bar"><div class="skill-progress" style="width:90%"></div></div></div>
-                        <div class="skill-item"><span class="skill-name">PHP / Laravel</span><div class="skill-bar"><div class="skill-progress" style="width:88%"></div></div></div>
-                        <div class="skill-item"><span class="skill-name">Python</span><div class="skill-bar"><div class="skill-progress" style="width:82%"></div></div></div>
-                        <div class="skill-item"><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div></div>
-                    </div>
-                </div>
-                <div class="skill-category" data-aos="fade-up">
-                    <h3><i class="fas fa-layer-group"></i> Frontend &amp; Backend</h3>
-                    <div class="tech-badges">
-                        <span class="tech-badge">React.js</span>
-                        <span class="tech-badge">Vue.js</span>
-                        <span class="tech-badge">Blade</span>
-                        <span class="tech-badge">REST APIs</span>
-                        <span class="tech-badge">SOAP APIs</span>
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">FastAPI</span>
-                        <span class="tech-badge">Docker</span>
-                        <span class="tech-badge">Linux / WSL</span>
-                        <span class="tech-badge">Git</span>
-                    </div>
-                </div>
-                <div class="skill-category" data-aos="fade-up">
-                    <h3><i class="fas fa-database"></i> Databases</h3>
-                    <div class="skill-items">
-                        <div class="skill-item"><span class="skill-name">MySQL</span><div class="skill-bar"><div class="skill-progress" style="width:90%"></div></div></div>
-                        <div class="skill-item"><span class="skill-name">SQL Server</span><div class="skill-bar"><div class="skill-progress" style="width:87%"></div></div></div>
-                    </div>
-                </div>
-                <div class="skill-category" data-aos="fade-up">
-                    <h3><i class="fas fa-robot"></i> AI &amp; Payments</h3>
-                    <div class="tech-badges">
-                        <span class="tech-badge">DeepSeek</span>
-                        <span class="tech-badge">Gemini</span>
-                        <span class="tech-badge">OpenAI</span>
-                        <span class="tech-badge">Stripe</span>
-                        <span class="tech-badge">PayPal</span>
-                        <span class="tech-badge">Meta Cloud API</span>
-                        <span class="tech-badge">Gmail API</span>
-                        <span class="tech-badge">Hardware SDKs</span>
-                    </div>
-                </div>
-            </div>
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// about_me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card" data-aos="fade-up">
+          <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Current Role</h3>
+          <p>Senior Software Developer</p>
+          <p class="text-muted">Enterprise Systems &amp; AI Automation</p>
         </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">// work_history</span>
-                <h2 class="section-title">Professional Experience</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item" data-aos="fade-up">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-header">
-                            <div>
-                                <h3>Senior Software Developer</h3>
-                                <h4>Enterprise &amp; Product Systems</h4>
-                            </div>
-                            <div class="timeline-date"><i class="fas fa-calendar"></i> 2020 – Present</div>
-                        </div>
-                        <ul class="achievements">
-                            <li>Delivered complex hardware/API integrations for Gunnebo airport security gate systems</li>
-                            <li>Architected and built high-performance POS ecosystems from scratch</li>
-                            <li>Engineered resilient backend services with standalone watchdog processes for maximum uptime</li>
-                            <li>Collaborated directly on product planning to translate business requirements into scalable solutions</li>
-                        </ul>
-                        <div class="tech-stack-inline">
-                            <span>.NET</span><span>C#</span><span>Laravel</span><span>MySQL</span><span>SQL Server</span><span>REST APIs</span><span>SOAP</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-item" data-aos="fade-up">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-header">
-                            <div>
-                                <h3>AI &amp; Automation Engineer</h3>
-                                <h4>Python · LLMs · Multi-Channel Workflows</h4>
-                            </div>
-                            <div class="timeline-date"><i class="fas fa-calendar"></i> 2022 – Present</div>
-                        </div>
-                        <ul class="achievements">
-                            <li>Built intelligent Gmail-to-WhatsApp automation pipeline using DeepSeek AI for real-time email summarization</li>
-                            <li>Designed Python-driven orchestration for multi-channel API integrations with failover support</li>
-                            <li>Integrated Gemini and OpenAI APIs into production applications for smart decision-making</li>
-                        </ul>
-                        <div class="tech-stack-inline">
-                            <span>Python</span><span>DeepSeek</span><span>Gemini</span><span>WhatsApp API</span><span>Gmail API</span><span>FastAPI</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="about-card" data-aos="fade-up">
+          <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Specialization</h3>
+          <p>Full-Stack Development</p>
+          <p class="text-muted">Systems Architecture &bull; Enterprise Integrations</p>
         </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">// featured_work</span>
-                <h2 class="section-title">Projects</h2>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card" data-aos="fade-up">
-                    <div class="project-icon"><i class="fas fa-paper-plane"></i></div>
-                    <h3><a href="https://github.com/moinsarwar/mail-to-whatsapp-sender" target="_blank">Mail-to-WhatsApp Sender</a></h3>
-                    <p>A DeepSeek AI-powered automation tool that monitors Gmail, intelligently summarizes incoming emails, and forwards them to WhatsApp with high-fidelity PDF rendering.</p>
-                    <div class="tech-stack-inline">
-                        <span>Python</span><span>DeepSeek</span><span>Meta Cloud API</span><span>Gmail API</span>
-                    </div>
-                    <a href="https://github.com/moinsarwar/mail-to-whatsapp-sender" target="_blank" class="project-link"><i class="fab fa-github"></i> View on GitHub</a>
-                </div>
-                <div class="project-card" data-aos="fade-up">
-                    <div class="project-icon"><i class="fas fa-building"></i></div>
-                    <h3>Enterprise Gate &amp; POS Systems</h3>
-                    <p>Engineered production-grade validation APIs for Gunnebo airport security gates and developed complete, high-performance Point of Sale ecosystems from the ground up.</p>
-                    <div class="tech-stack-inline">
-                        <span>.NET</span><span>C#</span><span>SQL Server</span><span>Hardware SDK</span>
-                    </div>
-                </div>
-            </div>
+        <div class="about-card" data-aos="fade-up">
+          <div class="card-icon"><i class="fas fa-robot"></i></div>
+          <h3>AI &amp; Automation</h3>
+          <p>DeepSeek &bull; Gemini &bull; OpenAI</p>
+          <p class="text-muted">Python-driven multi-channel workflows</p>
         </div>
-    </section>
+      </div>
+      <div class="about-description" data-aos="fade-up">
+        <p>I am a seasoned software professional specializing in building and scaling complex enterprise systems. My
+          focus lies at the intersection of <strong>Full-Stack Development</strong>, <strong>Systems
+            Architecture</strong>, and <strong>AI-driven automation</strong>.</p>
+        <p>I have extensive hands-on experience delivering hardware &amp; API integrations for <strong>airport security
+            gate systems (Gunnebo)</strong> and high-performance <strong>POS ecosystems</strong>. I believe the best way
+          to predict the future is to automate it.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">// lets_connect</span>
-                <h2 class="section-title">Get In Touch</h2>
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// tech_stack</span>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">.NET / C#</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width:90%"></div>
+              </div>
             </div>
-            <div class="contact-grid">
-                <div class="contact-info" data-aos="fade-up">
-                    <h3>Ready to collaborate?</h3>
-                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-                    <div class="contact-details">
-                        <a href="mailto:moinsarwar19@gmail.com" class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>moinsarwar19@gmail.com</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/moin-sarwar/" target="_blank" class="contact-item">
-                            <i class="fab fa-linkedin"></i>
-                            <span>linkedin.com/in/moin-sarwar</span>
-                        </a>
-                        <a href="https://github.com/moinsarwar" target="_blank" class="contact-item">
-                            <i class="fab fa-github"></i>
-                            <span>github.com/moinsarwar</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="cta-card" data-aos="fade-up">
-                    <i class="fas fa-rocket"></i>
-                    <h4>Let's Build Something Great</h4>
-                    <p>Whether it's an enterprise system, an AI automation pipeline, or a full-stack product — I'm ready.</p>
-                    <a href="mailto:moinsarwar19@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Send a Message</a>
-                </div>
+            <div class="skill-item"><span class="skill-name">PHP / Laravel</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width:88%"></div>
+              </div>
             </div>
+            <div class="skill-item"><span class="skill-name">Python</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width:82%"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span class="skill-name">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width:85%"></div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fas fa-layer-group"></i> Frontend &amp; Backend</h3>
+          <div class="tech-badges">
+            <span class="tech-badge">React.js</span>
+            <span class="tech-badge">Vue.js</span>
+            <span class="tech-badge">Blade</span>
+            <span class="tech-badge">REST APIs</span>
+            <span class="tech-badge">SOAP APIs</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">FastAPI</span>
+            <span class="tech-badge">Docker</span>
+            <span class="tech-badge">Linux / WSL</span>
+            <span class="tech-badge">Git</span>
+          </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">MySQL</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width:90%"></div>
+              </div>
+            </div>
+            <div class="skill-item"><span class="skill-name">SQL Server</span>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width:87%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up">
+          <h3><i class="fas fa-robot"></i> AI &amp; Payments</h3>
+          <div class="tech-badges">
+            <span class="tech-badge">DeepSeek</span>
+            <span class="tech-badge">Gemini</span>
+            <span class="tech-badge">OpenAI</span>
+            <span class="tech-badge">Stripe</span>
+            <span class="tech-badge">PayPal</span>
+            <span class="tech-badge">Meta Cloud API</span>
+            <span class="tech-badge">Gmail API</span>
+            <span class="tech-badge">Hardware SDKs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2025 <strong>Moin Sarwar</strong>. Built with <i class="fas fa-heart"></i> and lots of ☕</p>
-        <p class="footer-note">Powered by Claude AI &amp; Cursor AI</p>
-    </footer>
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// work_history</span>
+        <h2 class="section-title">Professional Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Senior Software Developer</h3>
+                <h4>Enterprise &amp; Product Systems</h4>
+              </div>
+              <div class="timeline-date"><i class="fas fa-calendar"></i> 2020 – Present</div>
+            </div>
+            <ul class="achievements">
+              <li>Delivered complex hardware/API integrations for Gunnebo airport security gate systems</li>
+              <li>Architected and built high-performance POS ecosystems from scratch</li>
+              <li>Engineered resilient backend services with standalone watchdog processes for maximum uptime</li>
+              <li>Collaborated directly on product planning to translate business requirements into scalable solutions
+              </li>
+            </ul>
+            <div class="tech-stack-inline">
+              <span>.NET</span><span>C#</span><span>Laravel</span><span>MySQL</span><span>SQL Server</span><span>REST
+                APIs</span><span>SOAP</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>AI &amp; Automation Engineer</h3>
+                <h4>Python · LLMs · Multi-Channel Workflows</h4>
+              </div>
+              <div class="timeline-date"><i class="fas fa-calendar"></i> 2022 – Present</div>
+            </div>
+            <ul class="achievements">
+              <li>Built intelligent Gmail-to-WhatsApp automation pipeline using DeepSeek AI for real-time email
+                summarization</li>
+              <li>Designed Python-driven orchestration for multi-channel API integrations with failover support</li>
+              <li>Integrated Gemini and OpenAI APIs into production applications for smart decision-making</li>
+            </ul>
+            <div class="tech-stack-inline">
+              <span>Python</span><span>DeepSeek</span><span>Gemini</span><span>WhatsApp API</span><span>Gmail
+                API</span><span>FastAPI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Projects Section -->
+  <section id="projects" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// featured_work</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-icon"><i class="fas fa-paper-plane"></i></div>
+          <h3><a href="https://github.com/moinsarwar/mail-to-whatsapp-sender" target="_blank">Mail-to-WhatsApp
+              Sender</a></h3>
+          <p>A DeepSeek AI-powered automation tool that monitors Gmail, intelligently summarizes incoming emails, and
+            forwards them to WhatsApp with high-fidelity PDF rendering.</p>
+          <div class="tech-stack-inline">
+            <span>Python</span><span>DeepSeek</span><span>Meta Cloud API</span><span>Gmail API</span>
+          </div>
+          <a href="https://github.com/moinsarwar/mail-to-whatsapp-sender" target="_blank" class="project-link"><i
+              class="fab fa-github"></i> View on GitHub</a>
+        </div>
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-icon"><i class="fas fa-building"></i></div>
+          <h3>Enterprise Gate &amp; POS Systems</h3>
+          <p>Engineered production-grade validation APIs for Gunnebo airport security gates and developed complete,
+            high-performance Point of Sale ecosystems from the ground up.</p>
+          <div class="tech-stack-inline">
+            <span>.NET</span><span>C#</span><span>SQL Server</span><span>Hardware SDK</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// lets_connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-up">
+          <h3>Ready to collaborate?</h3>
+          <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+          <div class="contact-details">
+            <a href="mailto:moinsarwar19@gmail.com" class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>moinsarwar19@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/moin-sarwar/" target="_blank" class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <span>linkedin.com/in/moin-sarwar</span>
+            </a>
+            <a href="https://github.com/moinsarwar" target="_blank" class="contact-item">
+              <i class="fab fa-github"></i>
+              <span>github.com/moinsarwar</span>
+            </a>
+          </div>
+        </div>
+        <div class="cta-card" data-aos="fade-up">
+          <i class="fas fa-rocket"></i>
+          <h4>Let's Build Something Great</h4>
+          <p>Whether it's an enterprise system, an AI automation pipeline, or a full-stack product — I'm ready.</p>
+          <a href="mailto:moinsarwar19@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Send a
+            Message</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 <strong>Moin Sarwar</strong>. Built with <i class="fas fa-heart"></i> and lots of ☕</p>
+    <p class="footer-note">Powered by Claude AI &amp; Cursor AI</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
