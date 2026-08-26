@@ -91,11 +91,11 @@ window.addEventListener('resize', () => {
 // Typing Effect
 const typedTextSpan = document.querySelector('.typed-text');
 const textArray = [
-    '.NET & C# Developer',
-    'Laravel / PHP Expert',
-    'AI & Automation Engineer',
-    'Enterprise Integration Specialist',
-    'Systems Architect'
+    'Fitwell Hub · Healthcare',
+    'Laravel & PHP Architecture',
+    'Comparison Engine · FastAPI',
+    'AI & Automation Builder',
+    '.NET & Enterprise Integrations'
 ];
 const typingDelay = 100;
 const erasingDelay = 50;
