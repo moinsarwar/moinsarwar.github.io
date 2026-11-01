@@ -91,11 +91,11 @@ window.addEventListener('resize', () => {
 // Typing Effect
 const typedTextSpan = document.querySelector('.typed-text');
 const textArray = [
-    'Fitwell Hub · Healthcare',
-    'Laravel & PHP Architecture',
-    'Comparison Engine · FastAPI',
-    'AI & Automation Builder',
-    '.NET & Enterprise Integrations'
+    'APIs & Backend Services',
+    'Laravel · FastAPI · .NET',
+    'Fintech & Healthcare Systems',
+    'SQL Performance & Docker',
+    'Integrations & AI Automation'
 ];
 const typingDelay = 100;
 const erasingDelay = 50;

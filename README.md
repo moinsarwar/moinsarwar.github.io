@@ -1,14 +1,14 @@
 # Moin Sarwar — Portfolio
 
-Personal portfolio site for **Moin Sarwar**, Senior Laravel Developer at [Fitwell Hub](https://fitwellhub.pk/).
+Personal portfolio site for **Moin Sarwar**, Backend Engineer.
 
 **Live:** [moinsarwar.github.io](https://moinsarwar.github.io)
 
 ## What's here
 
 - Current role, experience (Fitwell Hub · Ecnet Solutions)
-- Featured projects: Financial System / Comparison Engine, DAS, School Management, Mail-to-WhatsApp, Billing App
-- Skills: Laravel, FastAPI, React, .NET, AI (Ollama, DeepSeek, Gemini)
+- Featured projects: The Comparison Engine, DAS, School Management, Mail-to-WhatsApp, Billing App
+- Skills: Laravel, FastAPI, .NET, SQL, Docker, AI (Ollama, DeepSeek, Gemini)
 
 ## Run locally
 
